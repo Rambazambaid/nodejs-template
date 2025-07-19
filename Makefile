@@ -15,6 +15,9 @@ lint-fix:
 env:
 	touch .env
 
+test:
+	npm run test
+
 clean:
 	rm -rf ./node_modules
 	rm -rf ./.build
@@ -29,3 +32,4 @@ help:
 	@echo "	make lint-fix - запуск линтера + исправление ошибок"
 	@echo "	make env - создание env файла"
 	@echo "	make clean - переустановка зависимостей"
+	@echo "	make test - запуск vitest"

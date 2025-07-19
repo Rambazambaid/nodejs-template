@@ -3,11 +3,25 @@
         "baseUrl": "./",
         "rootDir": "./",
         "outDir": "./.build",
-        "lib": ["DOM", "ES2016"],
+        "lib": [
+            "DOM",
+            "ESNext"
+        ],
         "target": "esnext",
         "module": "nodenext",
-        "moduleResolution": "nodenext"
+        "moduleResolution": "nodenext",
+        "types": [
+            "node",
+            "vitest/globals"
+        ]
     },
-    "include": ["./libs/**/*.ts", "./app/**/*.ts"],
-    "exclude": ["node_modules"],
+    "include": [
+        "./libs/**/*.ts",
+        "./app/**/*.ts",
+        "./eslint.config.ts",
+        "./vitest.config.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
 }

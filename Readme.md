@@ -2,8 +2,9 @@
 
 NodeJS project template can be used for frontend app as well as backend api app  
 
-- typescript
-- eslint
+- "typescript"
+- "eslint"
+- "vitest"
 
 ### Run project:
 
