@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "rootDir": "./",
+        "outDir": "./.build",
+        "lib": ["DOM", "ES2016"],
+        "target": "esnext",
+        "module": "nodenext",
+        "moduleResolution": "nodenext"
+    },
+    "include": ["./libs/**/*.ts", "./app/**/*.ts"],
+    "exclude": ["node_modules"],
+}
